@@ -41,15 +41,6 @@ header hr {
  margin-top: 15px;
 }
 
-.redes a {
-     color: inherit;
-     text-decoration: none;
-}
-
-.redes a:hover {
-    color: white;
-}
-
 hr {
     border-color: lightblue;
 }
