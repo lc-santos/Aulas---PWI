@@ -3,13 +3,14 @@ body {
 }
 
 .imagem img{
-    margin-top: -95px;
-    margin-left: 48%;
-    display: block;
+    
+    background-attachment: fixed;
+    position:relative;
+    float: right;
     border-radius: 100%;
-    position:absolute;
-    transition-timing-function: ease ;
-    transition-duration: 2s;
+    margin-right: 460px;
+    margin-top: 80px;
+    
     
 }
 header h1 {
@@ -22,10 +23,10 @@ header hr {
     height: 1px;
     background-color: black;
     align-items: center;
+
 }
 .redes {
     
-    display: flex;
     align-items: center;
     list-style-type: none;
     padding: 5px;
@@ -40,16 +41,35 @@ header hr {
  margin-top: 15px;
 }
 
+.redes a {
+     color: inherit;
+     text-decoration: none;
+}
+
+.redes a:hover {
+    color: white;
+}
+
 hr {
     border-color: lightblue;
 }
 
-.redes li {
+.redes ol {
+    
+    border-radius: 2%;
+    background-color: lightblue;
+    display: flex;
     list-style-type: none;
-    font-size: 16px;
+    font-size: 18px;
     margin-right: 10px;
     text-decoration: underline;
+    padding: 20px;
+    padding-right: 50px;
     
+}
+
+.redes ol img {
+    padding-right: 10px;
 }
 
 .resumo {
@@ -102,4 +122,11 @@ hr {
 .exp dt {
     font-size: 15px;
 
+}
+
+footer {
+    padding: 0;
+    position: sticky;
+    position: absolute;
+    
 }
