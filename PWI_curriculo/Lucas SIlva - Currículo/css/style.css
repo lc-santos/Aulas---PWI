@@ -1,21 +1,23 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    padding-left: 8%;
 }
 
-.imagem img{
     
-    background-attachment: fixed;
-    position:relative;
-    float: right;
-    border-radius: 100%;
-    margin-right: 460px;
-    margin-top: 80px;
-    
-    
-}
 header h1 {
     margin-left: 25%;
 }
+
+    header img {
+        border: 2px solid lightslategray;
+        float: right;
+        margin: 0 auto;
+        position: relative;
+        margin-right: 320px;
+        margin-bottom: 50px;
+        border-radius: 90%;
+    
+    }
 
 header hr {
     margin-left: 20%;
@@ -55,8 +57,7 @@ hr {
     margin-right: 10px;
     text-decoration: underline;
     padding: 20px;
-    padding-right: 50px;
-    
+    padding-right: 50px; 
 }
 
 .redes ol img {
@@ -64,6 +65,7 @@ hr {
 }
 
 .resumo {
+    padding-top: 45px;
     font-size: 17px;
 }
 
@@ -72,10 +74,17 @@ hr {
 }
 
 .dados {
-    display: flex;
-    align-items: center;
+    padding-left: 20px;
+    margin-left: 20px;
     font-size: 16px;
+    
 }
+
+.dados li {
+    padding: 0;
+    position: relative;
+}
+
 
 .qualificacoes{
     font-size: 16px;
@@ -90,7 +99,6 @@ hr {
     margin-top: 3px;
     font-size: 15px;
     margin-left:40px;
-    
     
 }
 
@@ -119,4 +127,9 @@ footer {
     padding: 0;
     position: absolute;
     
+}
+
+.box {
+    padding-left: 120px;
+    margin-right: 150px;
 }
