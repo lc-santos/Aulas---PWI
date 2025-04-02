@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        div {
+           padding-bottom: 15px; 
+        }
+        
+        h1{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Escola Magnus</h1>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <legend>Dados pessoais</legend>
+                <div class="nome">
+                    <label>Nome: </label>
+                    <input type="text" maxlength="30">
+                  </div>
+
+                <div class="data">
+                  <label>Data de nascimento: </label>
+                  <input type="date">
+                </div>
+                
+                <div class="responsavel">
+                    <label>Responsável financeiro: </label>
+                    <input type="text">
+                </div>
+
+                <div class="email">
+                    <label>E-mail: </label>
+                    <input type="text">
+
+                </div>
+
+                <div class="cpf">
+                    <label>CPF: </label>
+                    <input type="text" maxlength="11">
+                </div>
+
+                <div class="telefone">
+                    <label>Celular: </label>
+                    <input type="text" placeholder="(99) 9999-9999" maxlength="9">
+                    <button type="submit">Validar</button>
+                </div>
+
+            </fieldset>
+            
+            <fieldset>
+                <legend>Escolaridade</legend>
+
+                <div class="serie">
+                    <label>Série do aluno: </label>
+                    <input type="radio">
+                </div>
+
+                <div class="turno">
+                    <label>Turno: </label>
+                    <label for=""><input type="radio" name="iradio" value="1">Manhã</label>
+                    <label for=""><input type="radio" name="iradio" value="2">Tarde</label>
+                </div>
+
+                <div class="atividades">
+                    <p>Atividades extracurriculares:</p>
+                    <label for=""><input type="checkbox" name="ichek" value="1">Musicalização</label>
+                    <label for=""><input type="checkbox" name="ichek" value="2">Judô</label>
+                    <label for=""><input type="checkbox" name="ichek" value="3">Pintura</label>
+                    <label for=""><input type="checkbox" name="ichek" value="4">Futebol</label>
+                    <label for=""><input type="checkbox" name="ichek" value="5">Ballet</label>
+                    <label for=""><input type="checkbox" name="ichek" value="6">Vôlei</label>
+                    <input type="checkbox">
+                </div>
+
+            </fieldset>
+
+        </form>
+    </main>
+
+</body>
+</html>
