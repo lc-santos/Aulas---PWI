@@ -1,0 +1,72 @@
+#headers {
+    display: grid;
+    gap: 0px 0px
+
+}
+
+#mains {
+    gap: 0px 0px;
+    display: grid;
+}
+
+.primeiralinha {
+    border: 1px solid black;
+    text-align: center;
+    background-color: lightgray;
+}
+
+.segundalinha {
+    text-align: center;
+    border: 1px solid black;
+}
+
+.terceiralinha{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 25px 35px 35px 10fr;
+    gap: 0px 0px;
+    grid-template-rows: 75px 75px;
+
+}
+
+.vazio {
+    color: white;
+    border: 1px solid black;
+    writing-mode: sideways-lr;
+}
+
+.tempo {
+    padding: 5px;
+    writing-mode: sideways-lr;
+    border: 1px solid black;
+}
+
+.horario {
+    padding: 5px;
+    writing-mode: sideways-lr;
+    border: 1px solid black;
+}
+
+.diadasemana {
+    text-decoration: underline;
+    background-color: lightblue;
+    text-align: center;
+    border: 1px solid black;
+    margin-bottom: 55px;
+}
+
+#dias {
+    gap: 0px 0px;
+    display: grid;
+    grid-template-columns: 5fr 5fr 5fr 5fr 5fr;
+
+    
+}
+
+.segunda {
+    border: 1px solid black;
+}
+
+.terca {
+    border: 1px solid black;
+}
