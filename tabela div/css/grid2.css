@@ -106,7 +106,7 @@
     border: 1px solid black;
     display: grid;
     background-color: lightgray;
-    grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr ;
+    grid-template-columns: 1fr 1.7fr 1.4fr 2.7fr 1fr 2fr 2fr 2fr 3fr 2fr 4fr 2fr 2fr 2fr 2fr 2fr 3fr 2fr ;
     grid-template-rows: 2fr;
 }
 
@@ -117,4 +117,9 @@
 
 .professor {
     border:1px solid black
+}
+
+.teste {
+    display: flex;
+    justify-content: flex-start;
 }
