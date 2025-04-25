@@ -1,0 +1,52 @@
+* {
+    margin: 0 auto;
+}
+
+body {
+    background-image: url(fundo-topo.jpg);
+}
+
+header  img{
+    display: block;
+    margin-top: 1%;
+    align-items: center;
+}
+
+nav {
+    padding: 10px;
+    margin-top: 1%;
+    display: flex;
+    background-color: white;
+}
+
+nav li {
+    align-items: center;
+    padding: 8px;
+    display: inline-flex;
+}
+
+.texto {
+    padding: 10px;
+}
+.sobre {
+    display: flex;
+    color: black;
+    padding: 5%;
+    background-color: lightgreen ;
+    align-items: center;
+    text-align: left;
+    border: 10px dotted aliceblue;
+}
+
+.imgsobre {
+    border: 7px dotted aliceblue;
+    margin: 2%;
+}
+
+
+
+pre {
+    padding: 10px;
+    font-weight: 300;
+    font-family:Arial, Helvetica, sans-serif
+}
